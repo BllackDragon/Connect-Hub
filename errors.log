@@ -1,0 +1,44 @@
+
+[2026-09-30T22:36:04.538528]
+Traceback (most recent call last):
+  File "D:\Connect Launcher\launcher.py", line 201, in <lambda>
+    lambda: self.status_right.setText(
+    
+KeyboardInterrupt
+
+
+[2026-09-30T22:39:27.199767]
+Traceback (most recent call last):
+  File "D:\Connect Launcher\launcher.py", line 1003, in <module>
+    main()
+  File "D:\Connect Launcher\launcher.py", line 994, in main
+    win = Launcher(cfg)
+          ^^^^^^^^^^^^^
+  File "D:\Connect Launcher\launcher.py", line 230, in __init__
+    self._build_ui()
+  File "D:\Connect Launcher\launcher.py", line 245, in _build_ui
+    root.addWidget(self._make_body(), 1)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\Connect Launcher\launcher.py", line 334, in _make_body
+    self.files_search.textChanged.connect(self._schedule_tree)
+                                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Launcher' object has no attribute '_schedule_tree'
+
+
+[2026-09-30T22:39:32.243456]
+Traceback (most recent call last):
+  File "D:\Connect Launcher\launcher.py", line 1003, in <module>
+    main()
+  File "D:\Connect Launcher\launcher.py", line 994, in main
+    win = Launcher(cfg)
+          ^^^^^^^^^^^^^
+  File "D:\Connect Launcher\launcher.py", line 230, in __init__
+    self._build_ui()
+  File "D:\Connect Launcher\launcher.py", line 245, in _build_ui
+    root.addWidget(self._make_body(), 1)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\Connect Launcher\launcher.py", line 334, in _make_body
+    self.files_search.textChanged.connect(self._schedule_tree)
+                                          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Launcher' object has no attribute '_schedule_tree'
+

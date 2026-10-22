@@ -1,0 +1,19 @@
+{
+    "vpn_dir":  "\\\\srv-file1.ssa.ru\\home$\\Tiutiunnik.A\\openvpn\\start",
+    "vnc_root":  "M:\\Обмен HRC СО\\VNC",
+    "vpn_timeout":  60,
+    "vnc_extensions":  [
+                           ".vnc",
+                           ".lnk",
+                           ".rdp",
+                           ".bat"
+                       ],
+    "extra_vnc_roots":  [
+
+                        ],
+    "vnc_exclude_patterns":  [
+                                 "неактивн",
+                                 "устаревш"
+                             ],
+    "show_all_files":  true
+}
